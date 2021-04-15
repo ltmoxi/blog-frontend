@@ -1,9 +1,9 @@
 <template>
   <div class="about">
-    <img class="background" src="../../assets/350.jpg" alt="">
+    <img class="background" src="../../assets/360.jpg" alt="">
      <img class="avatar" src="../../assets/0.jpg" alt="">
     <!-- <img class="avatar" src="../../assets/tx.gif" alt=""> -->
-    <p v-show="this.manager == null" class="name">答案</p>
+    <p v-show="this.manager == null" class="name">blog</p>
     <p v-show="this.manager != null" class="name">{{manager.name}}</p>
     <!-- <p class="desc">时间白驹过隙，转瞬即逝。可这种心情很长，如高山大川，连绵不绝。</p> -->
     <!-- <div class="line"></div> -->
@@ -20,8 +20,8 @@
     <ul class="social">
       <li>
         <div style="float: left;margin-top: 0px" class="desc">加入我们:</div>
-        <!-- <a href="//shang.qq.com/wpa/qunwpa?idkey=8af40e2d5571c9cd39289c4e1f9cabd2374da9d61950d0ec41a458bc1ad88057" target="_blank" style="margin-left:-30px "><img src="../../assets/icon/Qqun.png"  alt=""><span style="font-size: 8px">技术交流</span></a> -->
-        <a href="//shang.qq.com/wpa/qunwpa?idkey=5342c70630733610e25122d3731f16a58a2db6c84ccb7861a736138685998e11" target="_blank" style="margin-left: -50px;width: 50px; "><img src="../../assets/icon/Qqun.png"  alt=""><span style="font-size: 5px">技术交流</span></a>
+        <!-- <a href="//shang.qq.com/wpa/qunwpa?idkey=8af40e2d5571c9cd39289c4e1f9cabd2374da9d61950d0ec41a458bc1ad88057" target="_blank" style="margin-left:-30px "><img src="../../assets/icon/Qqun.png"  alt=""><span style="font-size: 8px">心得分享</span></a> -->
+        <a href="//shang.qq.com/wpa/qunwpa?idkey=5342c70630733610e25122d3731f16a58a2db6c84ccb7861a736138685998e11" target="_blank" style="margin-left: -50px;width: 50px; "><img src="../../assets/icon/Qqun.png"  alt=""><span style="font-size: 5px">心得分享</span></a>
       </li>
     </ul>
     <!--<h4>技能值</h4>

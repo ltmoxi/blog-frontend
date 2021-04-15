@@ -3,7 +3,7 @@
     <iv-row>
       <iv-col :xs="24" :sm="24" :md="24" :lg="17">
         <div class="layout-left">
-          <section-title :mainTitle="'源码分享'" :subTitle="'Code'">
+          <section-title :mainTitle="'github项目推荐'" :subTitle="'Code'">
             <!-- <title-menu-filter @filterByMenu="listArticle"  slot="menu" :menu-filter-list="defaultFilterList"></title-menu-filter> -->
           </section-title>
           <article-list-cell v-for="article in articleList" :article="article" :key="article.id"></article-list-cell>

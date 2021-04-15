@@ -105,13 +105,13 @@
 
         statusArr: [{
           key: 1001,
-          label: '技术交流'
+          label: '心得分享'
         }, {
           key: 1002,
-          label: '源码分享'
+          label: 'github项目推荐'
         }, {
           key: 1003,
-          label: '程序人生'
+          label: '源码解析'
         }],
 
         article: {

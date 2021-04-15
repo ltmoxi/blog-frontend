@@ -1,36 +1,9 @@
 <template>
-  <div class="pay">
-    <div>
-  <iv-poptip trigger="hover">
-      <iv-button class="screen-reader-text">
-       赏
-       <!--   -->
-      </iv-button>
-      
-        <div slot="content" class="screen">
-          <div>
-           <div slot="title" class="tit">微信打赏</div>
-              <iv-button type="text" class="btn">
-                  <img src="../../assets/weChatpay.png" alt="">
-              </iv-button>
-           </div>
-           <div>
-            <div slot="title" style="margin-left: 30px">支付宝打赏</div>
-               <iv-button type="text" class="btn" style="margin-left: 30px">
-                  <img src="../../assets/alipay.png" alt="" >
-                </iv-button>
-             </div>
-        </div>
 
-  </iv-poptip>
-    </div>
-    <br>
-      <span >多谢小爷打赏</span>
-  </div>
 </template>
 
 <script type="text/ecmascript-6">
-  
+
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus" scoped>
@@ -46,7 +19,7 @@
       width 100%
 
   .btn
-   border: 1px solid #6190e8; 
+   border: 1px solid #6190e8;
    width:100px
    height:100px
    padding:5px

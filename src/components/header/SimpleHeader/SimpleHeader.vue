@@ -10,15 +10,15 @@
       <div id="header"  v-show="show">
     <router-link id="logo" to="/">
       <img src="../../../assets/logo.png">
-      <span class="title">答案</span>
+      <span class="title">blog</span>
       <span class="motto">go！go！go！</span>
     </router-link>
     <ul id="nav" >
-      <li><router-link to="/articleList" class="nav-link contribute" ><span class="iconfont icon-icon-test">技术交流</span></router-link></li>
-      <li><router-link to="/codes" class="nav-link contribute" ><span class="iconfont icon-fenxiang">源码分享</span></router-link></li>
-      <li><router-link to="/life" class="nav-link contribute" ><span class="iconfont icon-erjiji">程序人生</span></router-link></li>
+      <li><router-link to="/articleList" class="nav-link contribute" ><span class="iconfont icon-icon-test">心得分享</span></router-link></li>
+      <li><router-link to="/codes" class="nav-link contribute" ><span class="iconfont icon-fenxiang">github项目推荐</span></router-link></li>
+      <li><router-link to="/life" class="nav-link contribute" ><span class="iconfont icon-erjiji">源码解析</span></router-link></li>
       <li><router-link to="/timeline" class="nav-link contribute" ><span class="iconfont icon-shijian">时间轴</span></router-link></li>
-      <li><router-link to="/article/1" class="nav-link contribute" ><span class="iconfont icon-xiaobaicai">关于菜逼博主</span></router-link></li>
+      <li><router-link to="/article/1" class="nav-link contribute" ><span class="iconfont icon-xiaobaicai">关于我</span></router-link></li>
 
       <li >
         <!-- <form id="search-form" action="/articles/search"> -->
@@ -26,7 +26,7 @@
         <input
           type="text" id="search-query-nav" class="search-query st-default-search-input aa-input" name="keywords" v-model="keywords" @keyup.enter="submit(keywords)"
           autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false"
-          aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;" placeholder="在这里可劲搜吧....">
+          aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;" placeholder="搜索....">
         <pre
           aria-hidden="true"
           style="position: absolute; visibility: hidden; white-space: pre; font-family: system-ui; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre>

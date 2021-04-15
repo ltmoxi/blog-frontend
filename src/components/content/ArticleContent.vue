@@ -147,7 +147,7 @@ export default {
               this.addCodeLineNumber()
               this.refreshDiectory()//这个就是更新渲染目录
               // this.refreshMobileDirectory()
-              document.title = this.article.articleName + ' | 答案的个人博客 '
+              document.title = this.article.articleName + ' | blog的个人博客 '
             })
         }
       })

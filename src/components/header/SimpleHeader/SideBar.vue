@@ -7,8 +7,8 @@
                 <video autoplay loop muted playsinline src="../../../assets/photowall/Up.mp4" class="fillWidth"></video>
             </div>
           <div class="site-info">
-            <h1 class="site-name">答案</h1>
-            <h1 class="site-desc">Love yourself</h1>
+            <h1 class="site-name">blog</h1>
+            <h1 class="site-desc">this is my blog</h1>
           </div>
         </div>
         <div class="sidebar-menus" >
@@ -16,7 +16,7 @@
             <p>
               <iv-icon type="map"></iv-icon>
               <router-link to="/articleList" class="nav-link"><span class="arrow"></span>
-              技术交流</router-link>
+              心得分享</router-link>
             </p>
           </div>
         </div>
@@ -25,7 +25,7 @@
             <p>
               <iv-icon type="map"></iv-icon>
               <router-link to="/codes" class="nav-link"><span class="arrow"></span>
-              源码分享</router-link>
+              github项目推荐</router-link>
             </p>
           </div>
         </div>
@@ -34,7 +34,7 @@
             <p>
               <iv-icon type="map"></iv-icon>
               <router-link to="/life" class="nav-link"><span class="arrow"></span>
-              程序人生</router-link>
+              源码解析</router-link>
             </p>
           </div>
         </div>
@@ -52,7 +52,7 @@
             <p>
               <iv-icon type="map"></iv-icon>
               <router-link to="/article/1" class="nav-link"><span class="arrow"></span>
-              关于菜逼博主</router-link> 
+              关于我</router-link>
             </p>
           </div>
         </div>

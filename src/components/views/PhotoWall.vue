@@ -18,7 +18,7 @@
        <iv-col span="25" style="padding-left: 0;padding-right: 0;">
         <div class="big-photo">
           <a href="">
-            <img src="../../assets/photowall/1.gif" alt="">
+            <img src="../../assets/photowall/1.jpeg" alt="">
           </a>
         </div>
       </iv-col>

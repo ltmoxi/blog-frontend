@@ -8,12 +8,12 @@
 export default {
   name: 'app',
   metaInfo: {
-    title: '答案', // set a title
+    title: 'myblog', // set a title
     meta: [
       {
         // set meta
-        name: '答案',
-        content: '答案，欢迎大家交流学习'
+        name: 'myblog',
+        content: 'this is my blog'
       }
     ],
     link: [

@@ -120,7 +120,7 @@ const router = new Router({
             footer: CommonFooter
           }
         },
-        // 源码分享
+        // github项目推荐
         {
           path: '/codes',
           name: 'codes',
@@ -140,7 +140,7 @@ const router = new Router({
         //   }
         // },
 
-        // 程序人生
+        // 源码解析
         {
           path: '/life',
           name: 'life',
